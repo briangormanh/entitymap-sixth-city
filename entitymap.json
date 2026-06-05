@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "schema": "https://entitymap.org/spec/v1.0",
+  "generated": "2026-06-05T00:00:00Z",
+  "verificationStatus": "self-declared",
+  "publisher": {
+    "name": "Sixth City Marketing",
+    "url": "https://www.sixthcitymarketing.com/"
+  },
+  "entities": [
+    {
+      "entityId": "e_org_scm",
+      "@type": "Organization",
+      "name": "Sixth City Marketing",
+      "description": "A data-driven digital marketing agency founded in 2010 in Westlake, Ohio, offering SEO, PPC, web design, and conversion rate optimization services focused on measurable ROI.",
+      "alternateName": "Sixth City",
+      "relations": [
+        { "predicate": "OFFERS", "targetId": "e_svc_seo", "targetName": "SEO & AI Search Services" },
+        { "predicate": "OFFERS", "targetId": "e_svc_localseo", "targetName": "Local SEO" },
+        { "predicate": "OFFERS", "targetId": "e_svc_ppc", "targetName": "Pay-Per-Click Marketing" },
+        { "predicate": "OFFERS", "targetId": "e_svc_webdesign", "targetName": "Website Design & Development" },
+        { "predicate": "OFFERS", "targetId": "e_svc_cro", "targetName": "Conversion Rate Optimization" },
+        { "predicate": "AFFILIATED_WITH", "targetId": "e_place_westlake", "targetName": "Westlake, Ohio" }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_org_001",
+          "text": "Your marketing strategy should be driven by real results. Since 2010 we've delivered SEO, PPC, CRO, and web design services.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/",
+          "pageTitle": "An SEO Agency Focused on ROI | Data-Driven Digital Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.95,
+          "contentType": "definition"
+        },
+        {
+          "chunkId": "c_org_002",
+          "text": "All our marketing work is customized. No one-size-fits-all approaches that are packaged to every client.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/",
+          "pageTitle": "An SEO Agency Focused on ROI | Data-Driven Digital Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.85,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_svc_seo",
+      "@type": "Service",
+      "name": "SEO & AI Search Services",
+      "description": "Search engine optimization services including keyword research, user experience testing, link building, data analysis, conversion tracking, and content writing to grow organic and AI search visibility.",
+      "relations": [
+        { "predicate": "INSTANCE_OF", "targetId": "e_concept_seo", "targetName": "Search Engine Optimization" },
+        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" },
+        { "predicate": "INCLUDES", "targetId": "e_svc_localseo", "targetName": "Local SEO" },
+        { "predicate": "ACHIEVES", "targetId": "e_concept_roi", "targetName": "Return on Investment", "confidence": "declared" }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_seo_001",
+          "text": "Our SEO services include extensive keyword research, user experience testing, link building, data analysis, conversion tracking, and content writing.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/seo-services/",
+          "pageTitle": "SEO Services",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.9,
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_concept_seo",
+      "@type": "Concept",
+      "name": "Search Engine Optimization",
+      "description": "The practice of improving a website's visibility in organic search engine results through technical, content, and authority-building work.",
+      "sameAs": "https://www.wikidata.org/wiki/Q180711",
+      "alternateName": "SEO",
+      "hasChunks": [
+        {
+          "chunkId": "c_cseo_001",
+          "text": "SEO is the process of optimizing a website so it ranks higher in organic search results, driving qualified traffic without paid placement.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/seo-services/",
+          "pageTitle": "SEO Services",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.8,
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_svc_localseo",
+      "@type": "Service",
+      "name": "Local SEO",
+      "description": "Location-based search optimization that helps businesses rank in local map results and geographic searches across their service areas.",
+      "relations": [
+        { "predicate": "PART_OF", "targetId": "e_svc_seo", "targetName": "SEO & AI Search Services" },
+        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_local_001",
+          "text": "Local SEO helps your business appear in location-based and map searches so nearby customers can find you.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/local-seo/",
+          "pageTitle": "Local SEO Services",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.85,
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_svc_ppc",
+      "@type": "Service",
+      "name": "Pay-Per-Click Marketing",
+      "description": "Paid search and advertising management across Google Ads, Shopping Ads, Bing Ads, and social platforms designed to increase ad campaign ROI.",
+      "alternateName": "PPC",
+      "relations": [
+        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" },
+        { "predicate": "ACHIEVES", "targetId": "e_concept_roi", "targetName": "Return on Investment", "confidence": "declared" }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_ppc_001",
+          "text": "Increase your ad campaign's ROI by getting your ads in front of your target audiences.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/ppc-management/",
+          "pageTitle": "PPC Management Services",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.88,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_svc_webdesign",
+      "@type": "Service",
+      "name": "Website Design & Development",
+      "description": "Custom website design and development on WordPress and Shopify platforms built to support search visibility and conversion goals.",
+      "relations": [
+        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_web_001",
+          "text": "We design and develop websites on WordPress and Shopify built to perform in search and convert visitors.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/web-design/",
+          "pageTitle": "Website Design & Development",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.8,
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_svc_cro",
+      "@type": "Service",
+      "name": "Conversion Rate Optimization",
+      "description": "Testing and refinement of website pages and user experience to turn more existing traffic into leads and customers.",
+      "alternateName": "CRO",
+      "relations": [
+        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" },
+        { "predicate": "IMPROVES", "targetName": "Website Conversion Rate", "targetUri": "https://www.wikidata.org/wiki/Q1195700", "confidence": "declared" }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_cro_001",
+          "text": "Conversion rate optimization improves the percentage of your website visitors who become leads or customers.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/conversion-rate-optimization/",
+          "pageTitle": "Conversion Rate Optimization Services",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.82,
+          "contentType": "definition"
+        }
+      ]
+    },
+    {
+      "entityId": "e_concept_roi",
+      "@type": "Metric",
+      "name": "Return on Investment",
+      "description": "A performance measure used by Sixth City Marketing as the primary benchmark for evaluating marketing campaign success.",
+      "sameAs": "https://www.wikidata.org/wiki/Q1571891",
+      "alternateName": "ROI",
+      "hasChunks": [
+        {
+          "chunkId": "c_roi_001",
+          "text": "ROI isn't just a buzzword for us; it's a benchmark.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/",
+          "pageTitle": "An SEO Agency Focused on ROI | Data-Driven Digital Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.9,
+          "contentType": "statistic"
+        }
+      ]
+    },
+    {
+      "entityId": "e_place_westlake",
+      "@type": "Place",
+      "name": "Westlake, Ohio",
+      "description": "The headquarters location of Sixth City Marketing, in the greater Cleveland, Ohio metropolitan area.",
+      "sameAs": "https://www.wikidata.org/wiki/Q1989253",
+      "hasChunks": [
+        {
+          "chunkId": "c_place_001",
+          "text": "Sixth City Marketing is headquartered at 837 Crocker Rd in Westlake, Ohio, with additional offices across the Midwest and South.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/contact/",
+          "pageTitle": "Contact Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-05T00:00:00Z",
+          "relevanceScore": 0.85,
+          "contentType": "evidence"
+        }
+      ]
+    }
+  ]
+}

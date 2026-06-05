@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EntityMap — Sixth City Marketing</title>
+  <link rel="alternate" type="application/json" href="/entitymap.json" title="EntityMap (machine-readable)">
+  <style>
+    :root{
+      --ink:#0f1b2d; --muted:#5b6b80; --line:#e3e8ef; --bg:#f6f8fb;
+      --accent:#00b4d8; --accent-ink:#006c84; --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    .wrap{max-width:920px;margin:0 auto;padding:40px 24px 80px}
+    header.site{border-bottom:2px solid var(--accent);padding-bottom:20px;margin-bottom:8px}
+    .eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:700;color:var(--accent-ink)}
+    h1{font-size:30px;margin:6px 0 4px}
+    .sub{color:var(--muted);font-size:15px}
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 36px}
+    .pill{background:#eef6f9;color:var(--accent-ink);border:1px solid #d4e9f0;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:600}
+    .count{color:var(--muted);font-size:14px;margin-bottom:28px}
+    article.entity{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(15,27,45,.04)}
+    .ehead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .ename{font-size:20px;font-weight:700;margin:0}
+    .etype{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--accent);border-radius:6px;padding:3px 9px;white-space:nowrap}
+    .eid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--muted)}
+    .edesc{margin:10px 0 0;color:#26354a}
+    .alt{color:var(--muted);font-size:13.5px;margin-top:4px}
+    .sameas a{color:var(--accent-ink);font-size:13.5px;text-decoration:none;border-bottom:1px dotted #9cc}
+    .label{text-transform:uppercase;letter-spacing:.1em;font-size:11px;font-weight:700;color:var(--muted);margin:20px 0 8px}
+    ul.rel{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+    ul.rel li{font-size:14px}
+    .pred{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:#f0f3f8;border:1px solid var(--line);border-radius:5px;padding:1px 7px;color:#2a3b52;font-weight:600}
+    .arrow{color:var(--muted);margin:0 6px}
+    .conf{font-size:11px;color:var(--accent-ink);margin-left:6px;font-style:italic}
+    blockquote.chunk{margin:0 0 12px;padding:12px 16px;background:#f9fbfd;border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+    blockquote.chunk p{margin:0 0 6px;font-size:14.5px;color:#1e2c3f}
+    .cmeta{font-size:12px;color:var(--muted)}
+    .cmeta a{color:var(--accent-ink);text-decoration:none}
+    .note{background:#fff7e6;border:1px solid #ffe0a3;border-radius:10px;padding:12px 16px;font-size:13px;color:#7a5a12;margin-bottom:28px}
+    footer{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+    footer a{color:var(--accent-ink)}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="eyebrow">EntityMap v1.0</div>
+    <h1>Sixth City Marketing</h1>
+    <div class="sub">Machine-readable entity, evidence &amp; relationship declaration &middot;
+      <a href="https://www.sixthcitymarketing.com/">sixthcitymarketing.com</a></div>
+  </header>
+
+  <div class="meta">
+    <span class="pill">Schema: entitymap.org/spec/v1.0</span>
+    <span class="pill">Generated: 2026-06-05</span>
+    <span class="pill">Status: self-declared</span>
+    <span class="pill"><a href="/entitymap.json" style="color:inherit;text-decoration:none">View JSON &rarr;</a></span>
+  </div>
+
+  <div class="note"><strong>Sample / demo.</strong> Evidence passages and some source URLs are representative, not verbatim. Verify against live pages before treating this as a published EntityMap.</div>
+
+  <div class="count">9 entities declared</div>
+
+  <!-- ORG -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Sixth City Marketing <span class="eid">e_org_scm</span></h2>
+      <span class="etype">Organization</span>
+    </div>
+    <div class="alt">Also known as: Sixth City</div>
+    <p class="edesc">A data-driven digital marketing agency founded in 2010 in Westlake, Ohio, offering SEO, PPC, web design, and conversion rate optimization services focused on measurable ROI.</p>
+    <div class="label">Relationships</div>
+    <ul class="rel">
+      <li><span class="pred">OFFERS</span><span class="arrow">&rarr;</span>SEO &amp; AI Search Services</li>
+      <li><span class="pred">OFFERS</span><span class="arrow">&rarr;</span>Local SEO</li>
+      <li><span class="pred">OFFERS</span><span class="arrow">&rarr;</span>Pay-Per-Click Marketing</li>
+      <li><span class="pred">OFFERS</span><span class="arrow">&rarr;</span>Website Design &amp; Development</li>
+      <li><span class="pred">OFFERS</span><span class="arrow">&rarr;</span>Conversion Rate Optimization</li>
+      <li><span class="pred">AFFILIATED_WITH</span><span class="arrow">&rarr;</span>Westlake, Ohio</li>
+    </ul>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;Your marketing strategy should be driven by real results. Since 2010 we've delivered SEO, PPC, CRO, and web design services.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/">Homepage</a> &middot; relevance 0.95 &middot; definition</div>
+    </blockquote>
+    <blockquote class="chunk">
+      <p>&ldquo;All our marketing work is customized. No one-size-fits-all approaches that are packaged to every client.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/">Homepage</a> &middot; relevance 0.85 &middot; evidence</div>
+    </blockquote>
+  </article>
+
+  <!-- SEO SERVICE -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">SEO &amp; AI Search Services <span class="eid">e_svc_seo</span></h2>
+      <span class="etype">Service</span>
+    </div>
+    <p class="edesc">Search engine optimization services including keyword research, user experience testing, link building, data analysis, conversion tracking, and content writing to grow organic and AI search visibility.</p>
+    <div class="label">Relationships</div>
+    <ul class="rel">
+      <li><span class="pred">INSTANCE_OF</span><span class="arrow">&rarr;</span>Search Engine Optimization</li>
+      <li><span class="pred">PRODUCED_BY</span><span class="arrow">&rarr;</span>Sixth City Marketing</li>
+      <li><span class="pred">INCLUDES</span><span class="arrow">&rarr;</span>Local SEO</li>
+      <li><span class="pred">ACHIEVES</span><span class="arrow">&rarr;</span>Return on Investment<span class="conf">confidence: declared</span></li>
+    </ul>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;Our SEO services include extensive keyword research, user experience testing, link building, data analysis, conversion tracking, and content writing.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/seo-services/">SEO Services</a> &middot; relevance 0.90 &middot; definition</div>
+    </blockquote>
+  </article>
+
+  <!-- SEO CONCEPT -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Search Engine Optimization <span class="eid">e_concept_seo</span></h2>
+      <span class="etype">Concept</span>
+    </div>
+    <div class="alt">Also known as: SEO</div>
+    <div class="sameas">Same as: <a href="https://www.wikidata.org/wiki/Q180711">Wikidata Q180711</a></div>
+    <p class="edesc">The practice of improving a website's visibility in organic search engine results through technical, content, and authority-building work.</p>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;SEO is the process of optimizing a website so it ranks higher in organic search results, driving qualified traffic without paid placement.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/seo-services/">SEO Services</a> &middot; relevance 0.80 &middot; definition</div>
+    </blockquote>
+  </article>
+
+  <!-- LOCAL SEO -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Local SEO <span class="eid">e_svc_localseo</span></h2>
+      <span class="etype">Service</span>
+    </div>
+    <p class="edesc">Location-based search optimization that helps businesses rank in local map results and geographic searches across their service areas.</p>
+    <div class="label">Relationships</div>
+    <ul class="rel">
+      <li><span class="pred">PART_OF</span><span class="arrow">&rarr;</span>SEO &amp; AI Search Services</li>
+      <li><span class="pred">PRODUCED_BY</span><span class="arrow">&rarr;</span>Sixth City Marketing</li>
+    </ul>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;Local SEO helps your business appear in location-based and map searches so nearby customers can find you.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/local-seo/">Local SEO Services</a> &middot; relevance 0.85 &middot; definition</div>
+    </blockquote>
+  </article>
+
+  <!-- PPC -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Pay-Per-Click Marketing <span class="eid">e_svc_ppc</span></h2>
+      <span class="etype">Service</span>
+    </div>
+    <div class="alt">Also known as: PPC</div>
+    <p class="edesc">Paid search and advertising management across Google Ads, Shopping Ads, Bing Ads, and social platforms designed to increase ad campaign ROI.</p>
+    <div class="label">Relationships</div>
+    <ul class="rel">
+      <li><span class="pred">PRODUCED_BY</span><span class="arrow">&rarr;</span>Sixth City Marketing</li>
+      <li><span class="pred">ACHIEVES</span><span class="arrow">&rarr;</span>Return on Investment<span class="conf">confidence: declared</span></li>
+    </ul>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;Increase your ad campaign's ROI by getting your ads in front of your target audiences.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/ppc-management/">PPC Management Services</a> &middot; relevance 0.88 &middot; evidence</div>
+    </blockquote>
+  </article>
+
+  <!-- WEB DESIGN -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Website Design &amp; Development <span class="eid">e_svc_webdesign</span></h2>
+      <span class="etype">Service</span>
+    </div>
+    <p class="edesc">Custom website design and development on WordPress and Shopify platforms built to support search visibility and conversion goals.</p>
+    <div class="label">Relationships</div>
+    <ul class="rel">
+      <li><span class="pred">PRODUCED_BY</span><span class="arrow">&rarr;</span>Sixth City Marketing</li>
+    </ul>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;We design and develop websites on WordPress and Shopify built to perform in search and convert visitors.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/web-design/">Website Design &amp; Development</a> &middot; relevance 0.80 &middot; definition</div>
+    </blockquote>
+  </article>
+
+  <!-- CRO -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Conversion Rate Optimization <span class="eid">e_svc_cro</span></h2>
+      <span class="etype">Service</span>
+    </div>
+    <div class="alt">Also known as: CRO</div>
+    <p class="edesc">Testing and refinement of website pages and user experience to turn more existing traffic into leads and customers.</p>
+    <div class="label">Relationships</div>
+    <ul class="rel">
+      <li><span class="pred">PRODUCED_BY</span><span class="arrow">&rarr;</span>Sixth City Marketing</li>
+      <li><span class="pred">IMPROVES</span><span class="arrow">&rarr;</span>Website Conversion Rate<span class="conf">confidence: declared</span></li>
+    </ul>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;Conversion rate optimization improves the percentage of your website visitors who become leads or customers.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/conversion-rate-optimization/">Conversion Rate Optimization Services</a> &middot; relevance 0.82 &middot; definition</div>
+    </blockquote>
+  </article>
+
+  <!-- ROI METRIC -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Return on Investment <span class="eid">e_concept_roi</span></h2>
+      <span class="etype">Metric</span>
+    </div>
+    <div class="alt">Also known as: ROI</div>
+    <div class="sameas">Same as: <a href="https://www.wikidata.org/wiki/Q1571891">Wikidata Q1571891</a></div>
+    <p class="edesc">A performance measure used by Sixth City Marketing as the primary benchmark for evaluating marketing campaign success.</p>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;ROI isn't just a buzzword for us; it's a benchmark.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/">Homepage</a> &middot; relevance 0.90 &middot; statistic</div>
+    </blockquote>
+  </article>
+
+  <!-- PLACE -->
+  <article class="entity">
+    <div class="ehead">
+      <h2 class="ename">Westlake, Ohio <span class="eid">e_place_westlake</span></h2>
+      <span class="etype">Place</span>
+    </div>
+    <div class="sameas">Same as: <a href="https://www.wikidata.org/wiki/Q1989253">Wikidata Q1989253</a></div>
+    <p class="edesc">The headquarters location of Sixth City Marketing, in the greater Cleveland, Ohio metropolitan area.</p>
+    <div class="label">Evidence</div>
+    <blockquote class="chunk">
+      <p>&ldquo;Sixth City Marketing is headquartered at 837 Crocker Rd in Westlake, Ohio, with additional offices across the Midwest and South.&rdquo;</p>
+      <div class="cmeta"><a href="https://www.sixthcitymarketing.com/contact/">Contact</a> &middot; relevance 0.85 &middot; evidence</div>
+    </blockquote>
+  </article>
+
+  <footer>
+    Published per the <a href="https://entitymap.org/spec/v1.0">EntityMap v1.0</a> specification &middot;
+    Machine-readable source: <a href="/entitymap.json">/entitymap.json</a>
+  </footer>
+</div>
+</body>
+</html>
