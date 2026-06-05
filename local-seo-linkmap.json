@@ -1,0 +1,1040 @@
+{
+  "version": "1.0",
+  "schema": "https://entitymap.org/spec/v1.0",
+  "generated": "2026-06-05T00:00:00Z",
+  "verificationStatus": "self-declared",
+  "publisher": {
+    "name": "Sixth City Marketing",
+    "url": "https://www.sixthcitymarketing.com/"
+  },
+  "entities": [
+    {
+      "entityId": "p_local_seo",
+      "@type": "Service",
+      "name": "Local SEO Services",
+      "description": "Sixth City Marketing's Local SEO service page. This node is the hub; edges represent the contextual (in-body) internal links found on the page, grouped by purpose: COVERS = city pages, SUITED_FOR = industries served, RELATES_TO/PART_OF = sibling services and resources.",
+      "relations": [
+        {
+          "predicate": "PART_OF",
+          "targetId": "p_services_search_engine_optimization",
+          "targetName": "SEO & AI Search Services"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_link_building_services",
+          "targetName": "Link Building"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_services_conversion_rate_optimization",
+          "targetName": "Conversion Rate Optimization"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_services_pay_per_click",
+          "targetName": "Pay-Per-Click"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_services_paid_social_media",
+          "targetName": "Paid Social Media Ads"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_services_design",
+          "targetName": "Website Design"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_services_social_media_marketing",
+          "targetName": "Social Media Marketing"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_services_consulting_auditing",
+          "targetName": "Consulting & Auditing"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_dental_seo_agency",
+          "targetName": "Dental Practices",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_legal_seo",
+          "targetName": "Legal Practices",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_senior_living_seo",
+          "targetName": "Senior Care",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_automotive_seo",
+          "targetName": "Car Dealerships",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_ecommerce_seo",
+          "targetName": "Retail / Ecommerce",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_therapist_seo",
+          "targetName": "Psychologists / Therapists",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_healthcare_seo",
+          "targetName": "Medical / Healthcare",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_financial_seo",
+          "targetName": "Finance Offices",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_franchise_seo",
+          "targetName": "Franchises",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_aec_marketing_seo",
+          "targetName": "Architects / Engineers",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_cannabis_seo",
+          "targetName": "Cannabis Retailers",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_home_services_seo",
+          "targetName": "Home Services",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_plumber_seo",
+          "targetName": "Plumbers",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_contractor_seo",
+          "targetName": "Contractors",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_roofing_seo",
+          "targetName": "Roofers",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_seo_for_painting_companies",
+          "targetName": "Painters",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_construction_seo",
+          "targetName": "Construction",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_hvac_seo",
+          "targetName": "HVAC",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_garage_door_seo",
+          "targetName": "Garage Door Installers",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_fencing_company_seo",
+          "targetName": "Fence Installers",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_landscaping_seo",
+          "targetName": "Landscapers",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_electrician_seo",
+          "targetName": "Electricians",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_industries_commercial_cleaners",
+          "targetName": "Cleaning Companies",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_home_builder_seo",
+          "targetName": "Remodelers / Home Builders",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_waste_management_seo",
+          "targetName": "Waste / Recycling",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_seo_for_snow_plows",
+          "targetName": "Snow Plow Companies",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_pest_control_seo",
+          "targetName": "Pest Control",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_seo_for_window_companies",
+          "targetName": "Window Companies",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_2024_09_27_seo_for_veterinarians",
+          "targetName": "Veterinarians",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_2025_07_02_aba_therapy_marketing",
+          "targetName": "ABA Therapists",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetId": "p_2024_10_04_seo_for_trade_schools",
+          "targetName": "Trade Schools",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "p_search_engine_optimization_cleveland",
+          "targetName": "Cleveland"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "p_columbus_seo",
+          "targetName": "Columbus"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "p_pittsburgh_seo",
+          "targetName": "Pittsburgh"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "p_indianapolis_seo_services",
+          "targetName": "Indianapolis"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "p_chicago_seo",
+          "targetName": "Chicago"
+        },
+        {
+          "predicate": "COVERS",
+          "targetId": "p_nashville_seo",
+          "targetName": "Nashville"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_2024_05_20_types_of_seo",
+          "targetName": "Types of SEO (guide)"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_social_media_stats",
+          "targetName": "Social Media Statistics"
+        },
+        {
+          "predicate": "DESCRIBED_BY",
+          "targetId": "p_about_sixth_city_marketing_case_studies",
+          "targetName": "Case Studies"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "p_contact",
+          "targetName": "Contact / Lead Form"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_p_local_seo",
+          "text": "Local SEO helps your business appear in location-based and map searches so nearby customers can find you.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/local-seo/",
+          "pageTitle": "Local SEO Services To Help You Rank in the Local Pack",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_services_search_engine_optimization",
+      "@type": "Service",
+      "name": "SEO & AI Search Services",
+      "description": "Internal page: SEO & AI Search Services (https://www.sixthcitymarketing.com/services/search-engine-optimization/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_services_search_engine_optimization",
+          "text": "SEO & AI Search Services is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/search-engine-optimization/",
+          "pageTitle": "SEO & AI Search Services",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_link_building_services",
+      "@type": "Service",
+      "name": "Link Building",
+      "description": "Internal page: Link Building (https://www.sixthcitymarketing.com/link-building-services/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_link_building_services",
+          "text": "Link Building is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/link-building-services/",
+          "pageTitle": "Link Building",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_services_conversion_rate_optimization",
+      "@type": "Service",
+      "name": "Conversion Rate Optimization",
+      "description": "Internal page: Conversion Rate Optimization (https://www.sixthcitymarketing.com/services/conversion-rate-optimization/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_services_conversion_rate_optimization",
+          "text": "Conversion Rate Optimization is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/conversion-rate-optimization/",
+          "pageTitle": "Conversion Rate Optimization",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_services_pay_per_click",
+      "@type": "Service",
+      "name": "Pay-Per-Click",
+      "description": "Internal page: Pay-Per-Click (https://www.sixthcitymarketing.com/services/pay-per-click/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_services_pay_per_click",
+          "text": "Pay-Per-Click is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/pay-per-click/",
+          "pageTitle": "Pay-Per-Click",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_services_paid_social_media",
+      "@type": "Service",
+      "name": "Paid Social Media Ads",
+      "description": "Internal page: Paid Social Media Ads (https://www.sixthcitymarketing.com/services/paid-social-media/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_services_paid_social_media",
+          "text": "Paid Social Media Ads is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/paid-social-media/",
+          "pageTitle": "Paid Social Media Ads",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_services_design",
+      "@type": "Service",
+      "name": "Website Design",
+      "description": "Internal page: Website Design (https://www.sixthcitymarketing.com/services/design/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_services_design",
+          "text": "Website Design is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/design/",
+          "pageTitle": "Website Design",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_services_social_media_marketing",
+      "@type": "Service",
+      "name": "Social Media Marketing",
+      "description": "Internal page: Social Media Marketing (https://www.sixthcitymarketing.com/services/social-media-marketing/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_services_social_media_marketing",
+          "text": "Social Media Marketing is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/social-media-marketing/",
+          "pageTitle": "Social Media Marketing",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_services_consulting_auditing",
+      "@type": "Service",
+      "name": "Consulting & Auditing",
+      "description": "Internal page: Consulting & Auditing (https://www.sixthcitymarketing.com/services/consulting-auditing/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_services_consulting_auditing",
+          "text": "Consulting & Auditing is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/consulting-auditing/",
+          "pageTitle": "Consulting & Auditing",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_dental_seo_agency",
+      "@type": "Service",
+      "name": "Dental Practices",
+      "description": "Internal page: Dental Practices (https://www.sixthcitymarketing.com/dental-seo-agency/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_dental_seo_agency",
+          "text": "Dental Practices is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/dental-seo-agency/",
+          "pageTitle": "Dental Practices",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_legal_seo",
+      "@type": "Service",
+      "name": "Legal Practices",
+      "description": "Internal page: Legal Practices (https://www.sixthcitymarketing.com/legal-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_legal_seo",
+          "text": "Legal Practices is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/legal-seo/",
+          "pageTitle": "Legal Practices",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_senior_living_seo",
+      "@type": "Service",
+      "name": "Senior Care",
+      "description": "Internal page: Senior Care (https://www.sixthcitymarketing.com/senior-living-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_senior_living_seo",
+          "text": "Senior Care is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/senior-living-seo/",
+          "pageTitle": "Senior Care",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_automotive_seo",
+      "@type": "Service",
+      "name": "Car Dealerships",
+      "description": "Internal page: Car Dealerships (https://www.sixthcitymarketing.com/automotive-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_automotive_seo",
+          "text": "Car Dealerships is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/automotive-seo/",
+          "pageTitle": "Car Dealerships",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_ecommerce_seo",
+      "@type": "Service",
+      "name": "Retail / Ecommerce",
+      "description": "Internal page: Retail / Ecommerce (https://www.sixthcitymarketing.com/ecommerce-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_ecommerce_seo",
+          "text": "Retail / Ecommerce is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/ecommerce-seo/",
+          "pageTitle": "Retail / Ecommerce",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_therapist_seo",
+      "@type": "Service",
+      "name": "Psychologists / Therapists",
+      "description": "Internal page: Psychologists / Therapists (https://www.sixthcitymarketing.com/therapist-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_therapist_seo",
+          "text": "Psychologists / Therapists is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/therapist-seo/",
+          "pageTitle": "Psychologists / Therapists",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_healthcare_seo",
+      "@type": "Service",
+      "name": "Medical / Healthcare",
+      "description": "Internal page: Medical / Healthcare (https://www.sixthcitymarketing.com/healthcare-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_healthcare_seo",
+          "text": "Medical / Healthcare is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/healthcare-seo/",
+          "pageTitle": "Medical / Healthcare",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_financial_seo",
+      "@type": "Service",
+      "name": "Finance Offices",
+      "description": "Internal page: Finance Offices (https://www.sixthcitymarketing.com/financial-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_financial_seo",
+          "text": "Finance Offices is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/financial-seo/",
+          "pageTitle": "Finance Offices",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_franchise_seo",
+      "@type": "Service",
+      "name": "Franchises",
+      "description": "Internal page: Franchises (https://www.sixthcitymarketing.com/franchise-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_franchise_seo",
+          "text": "Franchises is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/franchise-seo/",
+          "pageTitle": "Franchises",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_aec_marketing_seo",
+      "@type": "Service",
+      "name": "Architects / Engineers",
+      "description": "Internal page: Architects / Engineers (https://www.sixthcitymarketing.com/aec-marketing-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_aec_marketing_seo",
+          "text": "Architects / Engineers is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/aec-marketing-seo/",
+          "pageTitle": "Architects / Engineers",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_cannabis_seo",
+      "@type": "Service",
+      "name": "Cannabis Retailers",
+      "description": "Internal page: Cannabis Retailers (https://www.sixthcitymarketing.com/cannabis-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_cannabis_seo",
+          "text": "Cannabis Retailers is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/cannabis-seo/",
+          "pageTitle": "Cannabis Retailers",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_home_services_seo",
+      "@type": "Service",
+      "name": "Home Services",
+      "description": "Internal page: Home Services (https://www.sixthcitymarketing.com/home-services-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_home_services_seo",
+          "text": "Home Services is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/home-services-seo/",
+          "pageTitle": "Home Services",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_plumber_seo",
+      "@type": "Service",
+      "name": "Plumbers",
+      "description": "Internal page: Plumbers (https://www.sixthcitymarketing.com/plumber-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_plumber_seo",
+          "text": "Plumbers is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/plumber-seo/",
+          "pageTitle": "Plumbers",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_contractor_seo",
+      "@type": "Service",
+      "name": "Contractors",
+      "description": "Internal page: Contractors (https://www.sixthcitymarketing.com/contractor-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_contractor_seo",
+          "text": "Contractors is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/contractor-seo/",
+          "pageTitle": "Contractors",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_roofing_seo",
+      "@type": "Service",
+      "name": "Roofers",
+      "description": "Internal page: Roofers (https://www.sixthcitymarketing.com/roofing-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_roofing_seo",
+          "text": "Roofers is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/roofing-seo/",
+          "pageTitle": "Roofers",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_seo_for_painting_companies",
+      "@type": "Service",
+      "name": "Painters",
+      "description": "Internal page: Painters (https://www.sixthcitymarketing.com/seo-for-painting-companies/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_seo_for_painting_companies",
+          "text": "Painters is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/seo-for-painting-companies/",
+          "pageTitle": "Painters",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_construction_seo",
+      "@type": "Service",
+      "name": "Construction",
+      "description": "Internal page: Construction (https://www.sixthcitymarketing.com/construction-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_construction_seo",
+          "text": "Construction is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/construction-seo/",
+          "pageTitle": "Construction",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_hvac_seo",
+      "@type": "Service",
+      "name": "HVAC",
+      "description": "Internal page: HVAC (https://www.sixthcitymarketing.com/hvac-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_hvac_seo",
+          "text": "HVAC is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/hvac-seo/",
+          "pageTitle": "HVAC",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_garage_door_seo",
+      "@type": "Service",
+      "name": "Garage Door Installers",
+      "description": "Internal page: Garage Door Installers (https://www.sixthcitymarketing.com/garage-door-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_garage_door_seo",
+          "text": "Garage Door Installers is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/garage-door-seo/",
+          "pageTitle": "Garage Door Installers",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_fencing_company_seo",
+      "@type": "Service",
+      "name": "Fence Installers",
+      "description": "Internal page: Fence Installers (https://www.sixthcitymarketing.com/fencing-company-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_fencing_company_seo",
+          "text": "Fence Installers is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/fencing-company-seo/",
+          "pageTitle": "Fence Installers",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_landscaping_seo",
+      "@type": "Service",
+      "name": "Landscapers",
+      "description": "Internal page: Landscapers (https://www.sixthcitymarketing.com/landscaping-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_landscaping_seo",
+          "text": "Landscapers is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/landscaping-seo/",
+          "pageTitle": "Landscapers",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_electrician_seo",
+      "@type": "Service",
+      "name": "Electricians",
+      "description": "Internal page: Electricians (https://www.sixthcitymarketing.com/electrician-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_electrician_seo",
+          "text": "Electricians is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/electrician-seo/",
+          "pageTitle": "Electricians",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_industries_commercial_cleaners",
+      "@type": "Service",
+      "name": "Cleaning Companies",
+      "description": "Internal page: Cleaning Companies (https://www.sixthcitymarketing.com/industries/commercial-cleaners/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_industries_commercial_cleaners",
+          "text": "Cleaning Companies is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/industries/commercial-cleaners/",
+          "pageTitle": "Cleaning Companies",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_home_builder_seo",
+      "@type": "Service",
+      "name": "Remodelers / Home Builders",
+      "description": "Internal page: Remodelers / Home Builders (https://www.sixthcitymarketing.com/home-builder-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_home_builder_seo",
+          "text": "Remodelers / Home Builders is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/home-builder-seo/",
+          "pageTitle": "Remodelers / Home Builders",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_waste_management_seo",
+      "@type": "Service",
+      "name": "Waste / Recycling",
+      "description": "Internal page: Waste / Recycling (https://www.sixthcitymarketing.com/waste-management-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_waste_management_seo",
+          "text": "Waste / Recycling is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/waste-management-seo/",
+          "pageTitle": "Waste / Recycling",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_seo_for_snow_plows",
+      "@type": "Service",
+      "name": "Snow Plow Companies",
+      "description": "Internal page: Snow Plow Companies (https://www.sixthcitymarketing.com/seo-for-snow-plows/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_seo_for_snow_plows",
+          "text": "Snow Plow Companies is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/seo-for-snow-plows/",
+          "pageTitle": "Snow Plow Companies",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_pest_control_seo",
+      "@type": "Service",
+      "name": "Pest Control",
+      "description": "Internal page: Pest Control (https://www.sixthcitymarketing.com/pest-control-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_pest_control_seo",
+          "text": "Pest Control is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/pest-control-seo/",
+          "pageTitle": "Pest Control",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_seo_for_window_companies",
+      "@type": "Service",
+      "name": "Window Companies",
+      "description": "Internal page: Window Companies (https://www.sixthcitymarketing.com/seo-for-window-companies/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_seo_for_window_companies",
+          "text": "Window Companies is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/seo-for-window-companies/",
+          "pageTitle": "Window Companies",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_2024_09_27_seo_for_veterinarians",
+      "@type": "Service",
+      "name": "Veterinarians",
+      "description": "Internal page: Veterinarians (https://www.sixthcitymarketing.com/2024/09/27/seo-for-veterinarians/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_2024_09_27_seo_for_veterinarians",
+          "text": "Veterinarians is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/2024/09/27/seo-for-veterinarians/",
+          "pageTitle": "Veterinarians",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_2025_07_02_aba_therapy_marketing",
+      "@type": "Service",
+      "name": "ABA Therapists",
+      "description": "Internal page: ABA Therapists (https://www.sixthcitymarketing.com/2025/07/02/aba-therapy-marketing/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_2025_07_02_aba_therapy_marketing",
+          "text": "ABA Therapists is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/2025/07/02/aba-therapy-marketing/",
+          "pageTitle": "ABA Therapists",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_2024_10_04_seo_for_trade_schools",
+      "@type": "Service",
+      "name": "Trade Schools",
+      "description": "Internal page: Trade Schools (https://www.sixthcitymarketing.com/2024/10/04/seo-for-trade-schools/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_2024_10_04_seo_for_trade_schools",
+          "text": "Trade Schools is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/2024/10/04/seo-for-trade-schools/",
+          "pageTitle": "Trade Schools",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_search_engine_optimization_cleveland",
+      "@type": "Place",
+      "name": "Cleveland",
+      "description": "Internal page: Cleveland (https://www.sixthcitymarketing.com/search-engine-optimization-cleveland/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_search_engine_optimization_cleveland",
+          "text": "Cleveland is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/search-engine-optimization-cleveland/",
+          "pageTitle": "Cleveland",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_columbus_seo",
+      "@type": "Place",
+      "name": "Columbus",
+      "description": "Internal page: Columbus (https://www.sixthcitymarketing.com/columbus-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_columbus_seo",
+          "text": "Columbus is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/columbus-seo/",
+          "pageTitle": "Columbus",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_pittsburgh_seo",
+      "@type": "Place",
+      "name": "Pittsburgh",
+      "description": "Internal page: Pittsburgh (https://www.sixthcitymarketing.com/pittsburgh-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_pittsburgh_seo",
+          "text": "Pittsburgh is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/pittsburgh-seo/",
+          "pageTitle": "Pittsburgh",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_indianapolis_seo_services",
+      "@type": "Place",
+      "name": "Indianapolis",
+      "description": "Internal page: Indianapolis (https://www.sixthcitymarketing.com/indianapolis-seo-services/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_indianapolis_seo_services",
+          "text": "Indianapolis is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/indianapolis-seo-services/",
+          "pageTitle": "Indianapolis",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_chicago_seo",
+      "@type": "Place",
+      "name": "Chicago",
+      "description": "Internal page: Chicago (https://www.sixthcitymarketing.com/chicago-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_chicago_seo",
+          "text": "Chicago is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/chicago-seo/",
+          "pageTitle": "Chicago",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_nashville_seo",
+      "@type": "Place",
+      "name": "Nashville",
+      "description": "Internal page: Nashville (https://www.sixthcitymarketing.com/nashville-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_nashville_seo",
+          "text": "Nashville is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/nashville-seo/",
+          "pageTitle": "Nashville",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_2024_05_20_types_of_seo",
+      "@type": "Concept",
+      "name": "Types of SEO (guide)",
+      "description": "Internal page: Types of SEO (guide) (https://www.sixthcitymarketing.com/2024/05/20/types-of-seo/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_2024_05_20_types_of_seo",
+          "text": "Types of SEO (guide) is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/2024/05/20/types-of-seo/",
+          "pageTitle": "Types of SEO (guide)",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_social_media_stats",
+      "@type": "Concept",
+      "name": "Social Media Statistics",
+      "description": "Internal page: Social Media Statistics (https://www.sixthcitymarketing.com/social-media-stats/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_social_media_stats",
+          "text": "Social Media Statistics is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/social-media-stats/",
+          "pageTitle": "Social Media Statistics",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_about_sixth_city_marketing_case_studies",
+      "@type": "Concept",
+      "name": "Case Studies",
+      "description": "Internal page: Case Studies (https://www.sixthcitymarketing.com/about-sixth-city-marketing/case-studies/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_about_sixth_city_marketing_case_studies",
+          "text": "Case Studies is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/about-sixth-city-marketing/case-studies/",
+          "pageTitle": "Case Studies",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    },
+    {
+      "entityId": "p_contact",
+      "@type": "Concept",
+      "name": "Contact / Lead Form",
+      "description": "Internal page: Contact / Lead Form (https://www.sixthcitymarketing.com/contact/).",
+      "hasChunks": [
+        {
+          "chunkId": "c_p_contact",
+          "text": "Contact / Lead Form is an internal page on sixthcitymarketing.com linked contextually from the Local SEO service page.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/contact/",
+          "pageTitle": "Contact / Lead Form",
+          "publisher": "Sixth City Marketing"
+        }
+      ]
+    }
+  ]
+}
