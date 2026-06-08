@@ -1,6 +1,7 @@
 {
   "version": "1.0",
   "schema": "https://entitymap.org/spec/v1.0",
+  "profile": "core",
   "generated": "2026-06-08T00:00:00Z",
   "verificationStatus": "self-declared",
   "publisher": {
@@ -66,37 +67,37 @@
           "targetName": "Data-Driven Marketing"
         },
         {
-          "predicate": "AFFILIATED_WITH",
+          "predicate": "INCLUDES",
           "targetId": "e_011",
           "targetName": "Westlake (Headquarters)"
         },
         {
-          "predicate": "AFFILIATED_WITH",
+          "predicate": "INCLUDES",
           "targetId": "e_012",
           "targetName": "Cleveland Office"
         },
         {
-          "predicate": "AFFILIATED_WITH",
+          "predicate": "INCLUDES",
           "targetId": "e_013",
           "targetName": "Columbus Office"
         },
         {
-          "predicate": "AFFILIATED_WITH",
+          "predicate": "INCLUDES",
           "targetId": "e_014",
           "targetName": "Pittsburgh Office"
         },
         {
-          "predicate": "AFFILIATED_WITH",
+          "predicate": "INCLUDES",
           "targetId": "e_015",
           "targetName": "Indianapolis Office"
         },
         {
-          "predicate": "AFFILIATED_WITH",
+          "predicate": "INCLUDES",
           "targetId": "e_016",
           "targetName": "Chicago Office"
         },
         {
-          "predicate": "AFFILIATED_WITH",
+          "predicate": "INCLUDES",
           "targetId": "e_017",
           "targetName": "Nashville Office"
         }
