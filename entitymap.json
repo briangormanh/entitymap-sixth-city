@@ -374,6 +374,7 @@
       "entityId": "e_011",
       "@type": "Place",
       "name": "Westlake (Headquarters)",
+      "sameAs": "https://share.google/zJmHlvHbcI279KXtQ",
       "description": "Sixth City Marketing's headquarters, located at 837 Crocker Road, Westlake, OH 44145.",
       "hasChunks": [
         {
@@ -392,6 +393,7 @@
       "entityId": "e_012",
       "@type": "Place",
       "name": "Cleveland Office",
+      "sameAs": "https://share.google/pZUTXdo2J1RND7PBK",
       "description": "Sixth City Marketing's Cleveland office, located at 815 Superior Avenue E, Suite 1712, Cleveland, OH 44114.",
       "hasChunks": [
         {
@@ -410,6 +412,7 @@
       "entityId": "e_013",
       "@type": "Place",
       "name": "Columbus Office",
+      "sameAs": "https://share.google/bIXqgPgpPVSb3igZY",
       "description": "Sixth City Marketing's Columbus office, located at 35 E Gay St #324, Columbus, OH 43215.",
       "hasChunks": [
         {
@@ -428,6 +431,7 @@
       "entityId": "e_014",
       "@type": "Place",
       "name": "Pittsburgh Office",
+      "sameAs": "https://share.google/53MlPQgAckeP2zHDa",
       "description": "Sixth City Marketing's Pittsburgh office, located at 239 Fourth Avenue #1915, Pittsburgh, PA 15222.",
       "hasChunks": [
         {
@@ -446,6 +450,7 @@
       "entityId": "e_015",
       "@type": "Place",
       "name": "Indianapolis Office",
+      "sameAs": "https://share.google/usLDK8EhHgu60N0hA",
       "description": "Sixth City Marketing's Indianapolis office, located at 429 N Pennsylvania St., Suite 300H, Indianapolis, IN 46204.",
       "hasChunks": [
         {
@@ -464,6 +469,7 @@
       "entityId": "e_016",
       "@type": "Place",
       "name": "Chicago Office",
+      "sameAs": "https://share.google/7pDeazwgQMe59Wvyi",
       "description": "Sixth City Marketing's Chicago office, located at 620 N La Salle, Suite 415, Chicago, IL 60654.",
       "hasChunks": [
         {
@@ -482,6 +488,7 @@
       "entityId": "e_017",
       "@type": "Place",
       "name": "Nashville Office",
+      "sameAs": "https://share.google/Mou5FcRAhzQ0fswGl",
       "description": "Sixth City Marketing's Nashville office, located at 501 Union Street, Suite 410, Nashville, TN 37219.",
       "hasChunks": [
         {
