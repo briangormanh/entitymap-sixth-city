@@ -1,219 +1,683 @@
 {
   "version": "1.0",
   "schema": "https://entitymap.org/spec/v1.0",
-  "generated": "2026-06-05T00:00:00Z",
+  "generated": "2026-06-08T00:00:00Z",
   "verificationStatus": "self-declared",
   "publisher": {
     "name": "Sixth City Marketing",
-    "url": "https://www.sixthcitymarketing.com/"
+    "url": "https://www.sixthcitymarketing.com/",
+    "sameAs": [
+      "https://www.linkedin.com/company/sixth-city-marketing",
+      "https://www.crunchbase.com/organization/sixth-city-marketing",
+      "https://www.facebook.com/SixthCityMarketing/"
+    ]
   },
   "entities": [
     {
-      "entityId": "e_org_scm",
+      "entityId": "e_001",
       "@type": "Organization",
       "name": "Sixth City Marketing",
-      "description": "A data-driven digital marketing agency founded in 2010 in Westlake, Ohio, offering SEO, PPC, web design, and conversion rate optimization services focused on measurable ROI.",
+      "description": "Sixth City Marketing is a full-service, ROI-focused digital marketing agency founded in 2010 and headquartered in Westlake, Ohio. It delivers SEO, PPC, web design and development, conversion rate optimization, and social media services in-house, with additional offices in Cleveland, Columbus, Pittsburgh, Indianapolis, Chicago, and Nashville.",
       "alternateName": "Sixth City",
-      "relations": [
-        { "predicate": "OFFERS", "targetId": "e_svc_seo", "targetName": "SEO & AI Search Services" },
-        { "predicate": "OFFERS", "targetId": "e_svc_localseo", "targetName": "Local SEO" },
-        { "predicate": "OFFERS", "targetId": "e_svc_ppc", "targetName": "Pay-Per-Click Marketing" },
-        { "predicate": "OFFERS", "targetId": "e_svc_webdesign", "targetName": "Website Design & Development" },
-        { "predicate": "OFFERS", "targetId": "e_svc_cro", "targetName": "Conversion Rate Optimization" },
-        { "predicate": "AFFILIATED_WITH", "targetId": "e_place_westlake", "targetName": "Westlake, Ohio" }
+      "sameAs": [
+        "https://www.linkedin.com/company/sixth-city-marketing",
+        "https://www.crunchbase.com/organization/sixth-city-marketing",
+        "https://www.facebook.com/SixthCityMarketing/"
       ],
-      "hasChunks": [
+      "relations": [
         {
-          "chunkId": "c_org_001",
-          "text": "Your marketing strategy should be driven by real results. Since 2010 we've delivered SEO, PPC, CRO, and web design services.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/",
-          "pageTitle": "An SEO Agency Focused on ROI | Data-Driven Digital Marketing",
-          "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.95,
-          "contentType": "definition"
+          "predicate": "OFFERS",
+          "targetId": "e_002",
+          "targetName": "Search Engine Optimization Services"
         },
         {
-          "chunkId": "c_org_002",
-          "text": "All our marketing work is customized. No one-size-fits-all approaches that are packaged to every client.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/",
-          "pageTitle": "An SEO Agency Focused on ROI | Data-Driven Digital Marketing",
-          "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.85,
-          "contentType": "evidence"
+          "predicate": "OFFERS",
+          "targetId": "e_003",
+          "targetName": "Pay-Per-Click Marketing and Management"
+        },
+        {
+          "predicate": "OFFERS",
+          "targetId": "e_004",
+          "targetName": "Website Design and Development Services"
+        },
+        {
+          "predicate": "OFFERS",
+          "targetId": "e_005",
+          "targetName": "Conversion Rate Optimization Services"
+        },
+        {
+          "predicate": "OFFERS",
+          "targetId": "e_006",
+          "targetName": "Paid Social Media Marketing Services"
+        },
+        {
+          "predicate": "OFFERS",
+          "targetId": "e_007",
+          "targetName": "Social Media Marketing"
+        },
+        {
+          "predicate": "OFFERS",
+          "targetId": "e_008",
+          "targetName": "Consulting and SEO Auditing"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "e_010",
+          "targetName": "Data-Driven Marketing"
+        },
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_011",
+          "targetName": "Westlake (Headquarters)"
+        },
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_012",
+          "targetName": "Cleveland Office"
+        },
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_013",
+          "targetName": "Columbus Office"
+        },
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_014",
+          "targetName": "Pittsburgh Office"
+        },
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_015",
+          "targetName": "Indianapolis Office"
+        },
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_016",
+          "targetName": "Chicago Office"
+        },
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_017",
+          "targetName": "Nashville Office"
         }
-      ]
-    },
-    {
-      "entityId": "e_svc_seo",
-      "@type": "Service",
-      "name": "SEO & AI Search Services",
-      "description": "Search engine optimization services including keyword research, user experience testing, link building, data analysis, conversion tracking, and content writing to grow organic and AI search visibility.",
-      "relations": [
-        { "predicate": "INSTANCE_OF", "targetId": "e_concept_seo", "targetName": "Search Engine Optimization" },
-        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" },
-        { "predicate": "INCLUDES", "targetId": "e_svc_localseo", "targetName": "Local SEO" },
-        { "predicate": "ACHIEVES", "targetId": "e_concept_roi", "targetName": "Return on Investment", "confidence": "declared" }
       ],
       "hasChunks": [
         {
-          "chunkId": "c_seo_001",
-          "text": "Our SEO services include extensive keyword research, user experience testing, link building, data analysis, conversion tracking, and content writing.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/seo-services/",
-          "pageTitle": "SEO Services",
+          "chunkId": "c_001",
+          "text": "We're a full-service SEO agency that prides itself on providing our clients with real results.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/about-sixth-city-marketing/",
+          "pageTitle": "About Sixth City Marketing: Results-Driven Marketing Agency",
           "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.9,
-          "contentType": "definition"
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        },
+        {
+          "chunkId": "c_002",
+          "text": "We craft data-driven strategies based on your data (traffic, conversions, bounces, etc.) and are always willing to take a step back, analyze, and pivot our strategy if we need to.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/about-sixth-city-marketing/",
+          "pageTitle": "About Sixth City Marketing: Results-Driven Marketing Agency",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        },
+        {
+          "chunkId": "c_003",
+          "text": "We have offices in Cleveland, Columbus, Indianapolis, Chicago, Nashville, and Pittsburgh with an in-house team of experts readily available to answer any of your questions.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/about-sixth-city-marketing/",
+          "pageTitle": "About Sixth City Marketing: Results-Driven Marketing Agency",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
         }
       ]
     },
     {
-      "entityId": "e_concept_seo",
-      "@type": "Concept",
-      "name": "Search Engine Optimization",
-      "description": "The practice of improving a website's visibility in organic search engine results through technical, content, and authority-building work.",
-      "sameAs": "https://www.wikidata.org/wiki/Q180711",
+      "entityId": "e_002",
+      "@type": "Service",
+      "name": "Search Engine Optimization Services",
       "alternateName": "SEO",
-      "hasChunks": [
-        {
-          "chunkId": "c_cseo_001",
-          "text": "SEO is the process of optimizing a website so it ranks higher in organic search results, driving qualified traffic without paid placement.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/seo-services/",
-          "pageTitle": "SEO Services",
-          "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.8,
-          "contentType": "definition"
-        }
-      ]
-    },
-    {
-      "entityId": "e_svc_localseo",
-      "@type": "Service",
-      "name": "Local SEO",
-      "description": "Location-based search optimization that helps businesses rank in local map results and geographic searches across their service areas.",
+      "description": "Sixth City Marketing's SEO service helps businesses earn higher Google rankings and more qualified organic leads through keyword research, technical SEO, content, and link building.",
       "relations": [
-        { "predicate": "PART_OF", "targetId": "e_svc_seo", "targetName": "SEO & AI Search Services" },
-        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" }
+        {
+          "predicate": "PRODUCED_BY",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        },
+        {
+          "predicate": "ACHIEVES",
+          "targetId": "e_009",
+          "targetName": "Return on Investment",
+          "confidence": "declared"
+        }
       ],
       "hasChunks": [
         {
-          "chunkId": "c_local_001",
-          "text": "Local SEO helps your business appear in location-based and map searches so nearby customers can find you.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/local-seo/",
-          "pageTitle": "Local SEO Services",
+          "chunkId": "c_010",
+          "text": "Gain a better ranking on Google and get more qualified leads from your site with SEO Marketing",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/",
+          "pageTitle": "Data-Driven Digital Marketing Services: SEO, PPC, Web Design",
           "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.85,
-          "contentType": "definition"
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
         }
       ]
     },
     {
-      "entityId": "e_svc_ppc",
+      "entityId": "e_003",
       "@type": "Service",
-      "name": "Pay-Per-Click Marketing",
-      "description": "Paid search and advertising management across Google Ads, Shopping Ads, Bing Ads, and social platforms designed to increase ad campaign ROI.",
+      "name": "Pay-Per-Click Marketing and Management",
       "alternateName": "PPC",
+      "description": "Sixth City Marketing's PPC service manages paid search and advertising campaigns to increase qualified lead flow while maximizing return on ad spend.",
       "relations": [
-        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" },
-        { "predicate": "ACHIEVES", "targetId": "e_concept_roi", "targetName": "Return on Investment", "confidence": "declared" }
+        {
+          "predicate": "PRODUCED_BY",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        },
+        {
+          "predicate": "ACHIEVES",
+          "targetId": "e_009",
+          "targetName": "Return on Investment",
+          "confidence": "declared"
+        }
       ],
       "hasChunks": [
         {
-          "chunkId": "c_ppc_001",
-          "text": "Increase your ad campaign's ROI by getting your ads in front of your target audiences.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/ppc-management/",
-          "pageTitle": "PPC Management Services",
+          "chunkId": "c_011",
+          "text": "See your lead flow increase with PPC services",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/",
+          "pageTitle": "Data-Driven Digital Marketing Services: SEO, PPC, Web Design",
           "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.88,
-          "contentType": "evidence"
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
         }
       ]
     },
     {
-      "entityId": "e_svc_webdesign",
+      "entityId": "e_004",
       "@type": "Service",
-      "name": "Website Design & Development",
-      "description": "Custom website design and development on WordPress and Shopify platforms built to support search visibility and conversion goals.",
+      "name": "Website Design and Development Services",
+      "alternateName": "Web Design",
+      "description": "Sixth City Marketing designs and develops custom websites built to convert visitors into customers, on platforms including WordPress and Shopify.",
       "relations": [
-        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" }
+        {
+          "predicate": "PRODUCED_BY",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        }
       ],
       "hasChunks": [
         {
-          "chunkId": "c_web_001",
-          "text": "We design and develop websites on WordPress and Shopify built to perform in search and convert visitors.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/web-design/",
-          "pageTitle": "Website Design & Development",
+          "chunkId": "c_012",
+          "text": "Get a custom site created just for your business that converts users to customers",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/",
+          "pageTitle": "Data-Driven Digital Marketing Services: SEO, PPC, Web Design",
           "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.8,
-          "contentType": "definition"
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
         }
       ]
     },
     {
-      "entityId": "e_svc_cro",
+      "entityId": "e_005",
       "@type": "Service",
-      "name": "Conversion Rate Optimization",
-      "description": "Testing and refinement of website pages and user experience to turn more existing traffic into leads and customers.",
+      "name": "Conversion Rate Optimization Services",
       "alternateName": "CRO",
+      "description": "Sixth City Marketing's CRO service revamps website pages and user experience with design-for-conversion to help clients reach their lead goals.",
       "relations": [
-        { "predicate": "PRODUCED_BY", "targetId": "e_org_scm", "targetName": "Sixth City Marketing" },
-        { "predicate": "IMPROVES", "targetName": "Website Conversion Rate", "targetUri": "https://www.wikidata.org/wiki/Q1195700", "confidence": "declared" }
+        {
+          "predicate": "PRODUCED_BY",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        },
+        {
+          "predicate": "ACHIEVES",
+          "targetId": "e_009",
+          "targetName": "Return on Investment",
+          "confidence": "declared"
+        }
       ],
       "hasChunks": [
         {
-          "chunkId": "c_cro_001",
-          "text": "Conversion rate optimization improves the percentage of your website visitors who become leads or customers.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/conversion-rate-optimization/",
-          "pageTitle": "Conversion Rate Optimization Services",
+          "chunkId": "c_013",
+          "text": "Let us revamp your site with design for conversion to reach your lead goal",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/",
+          "pageTitle": "Data-Driven Digital Marketing Services: SEO, PPC, Web Design",
           "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.82,
-          "contentType": "definition"
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
         }
       ]
     },
     {
-      "entityId": "e_concept_roi",
+      "entityId": "e_006",
+      "@type": "Service",
+      "name": "Paid Social Media Marketing Services",
+      "description": "Sixth City Marketing extends paid advertising reach onto social platforms including Facebook and LinkedIn.",
+      "relations": [
+        {
+          "predicate": "PRODUCED_BY",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_014",
+          "text": "Expand your PPC reach on Facebook, LinkedIn, and more",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/",
+          "pageTitle": "Data-Driven Digital Marketing Services: SEO, PPC, Web Design",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_007",
+      "@type": "Service",
+      "name": "Social Media Marketing",
+      "description": "Sixth City Marketing uses organic social media to build brand awareness and reach new audiences.",
+      "relations": [
+        {
+          "predicate": "PRODUCED_BY",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_015",
+          "text": "Taking advantage of social media to leverage your brand to new audiences",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/",
+          "pageTitle": "Data-Driven Digital Marketing Services: SEO, PPC, Web Design",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_008",
+      "@type": "Service",
+      "name": "Consulting and SEO Auditing",
+      "description": "Sixth City Marketing offers marketing consulting and SEO auditing, providing expert advice to strengthen a brand's digital presence.",
+      "relations": [
+        {
+          "predicate": "PRODUCED_BY",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_016",
+          "text": "Allow our expert team to offer expert marketing advice that boosts your brand",
+          "sourceUrl": "https://www.sixthcitymarketing.com/services/",
+          "pageTitle": "Data-Driven Digital Marketing Services: SEO, PPC, Web Design",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_009",
       "@type": "Metric",
       "name": "Return on Investment",
-      "description": "A performance measure used by Sixth City Marketing as the primary benchmark for evaluating marketing campaign success.",
-      "sameAs": "https://www.wikidata.org/wiki/Q1571891",
       "alternateName": "ROI",
+      "sameAs": "https://www.wikidata.org/wiki/Q1571891",
+      "description": "Return on investment is the primary benchmark Sixth City Marketing uses to evaluate the success of its marketing campaigns.",
       "hasChunks": [
         {
-          "chunkId": "c_roi_001",
+          "chunkId": "c_009",
           "text": "ROI isn't just a buzzword for us; it's a benchmark.",
           "sourceUrl": "https://www.sixthcitymarketing.com/",
           "pageTitle": "An SEO Agency Focused on ROI | Data-Driven Digital Marketing",
           "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.9,
-          "contentType": "statistic"
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "statistic",
+          "audienceType": "general"
         }
       ]
     },
     {
-      "entityId": "e_place_westlake",
-      "@type": "Place",
-      "name": "Westlake, Ohio",
-      "description": "The headquarters location of Sixth City Marketing, in the greater Cleveland, Ohio metropolitan area.",
-      "sameAs": "https://www.wikidata.org/wiki/Q1989253",
+      "entityId": "e_010",
+      "@type": "Concept",
+      "name": "Data-Driven Marketing",
+      "description": "The approach at the core of Sixth City Marketing's positioning: building and continually adjusting marketing strategy based on a client's own performance data rather than fixed packages.",
       "hasChunks": [
         {
-          "chunkId": "c_place_001",
-          "text": "Sixth City Marketing is headquartered at 837 Crocker Rd in Westlake, Ohio, with additional offices across the Midwest and South.",
-          "sourceUrl": "https://www.sixthcitymarketing.com/contact/",
-          "pageTitle": "Contact Sixth City Marketing",
+          "chunkId": "c_017",
+          "text": "We craft data-driven strategies based on your data (traffic, conversions, bounces, etc.) and are always willing to take a step back, analyze, and pivot our strategy if we need to.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/about-sixth-city-marketing/",
+          "pageTitle": "About Sixth City Marketing: Results-Driven Marketing Agency",
           "publisher": "Sixth City Marketing",
-          "retrieved": "2026-06-05T00:00:00Z",
-          "relevanceScore": 0.85,
-          "contentType": "evidence"
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_011",
+      "@type": "Place",
+      "name": "Westlake (Headquarters)",
+      "description": "Sixth City Marketing's headquarters, located at 837 Crocker Road, Westlake, OH 44145.",
+      "hasChunks": [
+        {
+          "chunkId": "c_021",
+          "text": "Sixth City Marketing's headquarters is located at 837 Crocker Road, Westlake, OH 44145.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/westlake-location/",
+          "pageTitle": "Sixth City Marketing | Westlake, OH",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_012",
+      "@type": "Place",
+      "name": "Cleveland Office",
+      "description": "Sixth City Marketing's Cleveland office, located at 815 Superior Avenue E, Suite 1712, Cleveland, OH 44114.",
+      "hasChunks": [
+        {
+          "chunkId": "c_022",
+          "text": "Sixth City Marketing's Cleveland office is located at 815 Superior Avenue E, Suite 1712, Cleveland, OH 44114.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/cleveland-digital-marketing/",
+          "pageTitle": "Cleveland Digital Marketing | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_013",
+      "@type": "Place",
+      "name": "Columbus Office",
+      "description": "Sixth City Marketing's Columbus office, located at 35 E Gay St #324, Columbus, OH 43215.",
+      "hasChunks": [
+        {
+          "chunkId": "c_023",
+          "text": "Sixth City Marketing's Columbus office is located at 35 E Gay St #324, Columbus, OH 43215.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/columbus-digital-marketing/",
+          "pageTitle": "Columbus Digital Marketing | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_014",
+      "@type": "Place",
+      "name": "Pittsburgh Office",
+      "description": "Sixth City Marketing's Pittsburgh office, located at 239 Fourth Avenue #1915, Pittsburgh, PA 15222.",
+      "hasChunks": [
+        {
+          "chunkId": "c_024",
+          "text": "Sixth City Marketing's Pittsburgh office is located at 239 Fourth Avenue #1915, Pittsburgh, PA 15222.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/pittsburgh-digital-marketing/",
+          "pageTitle": "Pittsburgh Digital Marketing | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_015",
+      "@type": "Place",
+      "name": "Indianapolis Office",
+      "description": "Sixth City Marketing's Indianapolis office, located at 429 N Pennsylvania St., Suite 300H, Indianapolis, IN 46204.",
+      "hasChunks": [
+        {
+          "chunkId": "c_025",
+          "text": "Sixth City Marketing's Indianapolis office is located at 429 N Pennsylvania St., Suite 300H, Indianapolis, IN 46204.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/indianapolis-digital-marketing/",
+          "pageTitle": "Indianapolis Digital Marketing | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_016",
+      "@type": "Place",
+      "name": "Chicago Office",
+      "description": "Sixth City Marketing's Chicago office, located at 620 N La Salle, Suite 415, Chicago, IL 60654.",
+      "hasChunks": [
+        {
+          "chunkId": "c_026",
+          "text": "Sixth City Marketing's Chicago office is located at 620 N La Salle, Suite 415, Chicago, IL 60654.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/chicago-seo/",
+          "pageTitle": "Chicago SEO | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_017",
+      "@type": "Place",
+      "name": "Nashville Office",
+      "description": "Sixth City Marketing's Nashville office, located at 501 Union Street, Suite 410, Nashville, TN 37219.",
+      "hasChunks": [
+        {
+          "chunkId": "c_027",
+          "text": "Sixth City Marketing's Nashville office is located at 501 Union Street, Suite 410, Nashville, TN 37219.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/nashville-seo/",
+          "pageTitle": "Nashville SEO | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_018",
+      "@type": "Person",
+      "name": "John Sammon",
+      "description": "John Sammon is the Founder and CEO of Sixth City Marketing, with a master's degree in Visual Communication and over twenty-two years of experience in web development and interactive strategy.",
+      "sameAs": [
+        "https://www.linkedin.com/in/johnsammon/",
+        "https://twitter.com/JohnSammon",
+        "https://www.crunchbase.com/person/john-sammon"
+      ],
+      "relations": [
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_031",
+          "text": "John Sammon holds a master's degree in Visual Communication, with a specialization in interactive multimedia, and has over twenty-two years of experience with web development and interactive strategy.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/about-john-sammon/",
+          "pageTitle": "John Sammon | CEO of Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_019",
+      "@type": "Person",
+      "name": "Ashley Friess",
+      "description": "Ashley Friess is the General Manager of Sixth City Marketing, overseeing daily operations across departments and the firm's business operations.",
+      "sameAs": [
+        "https://www.linkedin.com/in/ashley-friess-35a9a09b/"
+      ],
+      "relations": [
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_032",
+          "text": "I oversee the daily operations of individual departments and manage the business operations for the firm.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/ashley-friess/",
+          "pageTitle": "Ashley Friess | General Manager | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_020",
+      "@type": "Person",
+      "name": "Andrea Ozello",
+      "description": "Andrea Ozello is the PPC Director at Sixth City Marketing, leading paid media campaigns for the firm's PPC clients.",
+      "sameAs": [
+        "https://www.linkedin.com/in/andrea-ozello-01730a16/"
+      ],
+      "relations": [
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "e_003",
+          "targetName": "Pay-Per-Click Marketing and Management"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_033",
+          "text": "My role is essentially to manage all of Sixth City Marketing's clients that are utilizing PPC channels. Each day, I'm challenged to maximize the advertising spend of our clients by getting them the most response (web leads, sales and phone calls) with the most effective use of their media spend.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/andrea-ozello/",
+          "pageTitle": "Andrea Ozello | PPC Director | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_021",
+      "@type": "Person",
+      "name": "Brian Gorman",
+      "description": "Brian Gorman is the SEO Director at Sixth City Marketing, leading SEO strategy and client work for the firm.",
+      "sameAs": [
+        "https://www.linkedin.com/in/briangormanh/"
+      ],
+      "relations": [
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "e_002",
+          "targetName": "Search Engine Optimization Services"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_034",
+          "text": "My role is to manage all of Sixth City Marketing's SEO clients, ensuring their website is helping them reach their goals (web leads, sales, phone calls, etc.) with the most effective use of SEO tactics and strategy.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/brian-gorman/",
+          "pageTitle": "Brian Gorman | SEO Director | Sixth City Marketing",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_022",
+      "@type": "Person",
+      "name": "Sarah Blocksidge",
+      "description": "Sarah Blocksidge is the Marketing Director at Sixth City Marketing, leading the firm's internal SEO, PPC, social media, and email marketing.",
+      "sameAs": [
+        "https://www.linkedin.com/in/sarah-blocksidge/"
+      ],
+      "relations": [
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetId": "e_007",
+          "targetName": "Social Media Marketing"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_035",
+          "text": "My role here is manage our internal marketing department's SEO, PPC, social media, and email marketing efforts.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/sarah-blocksidge/",
+          "pageTitle": "Meet Sarah Blocksidge",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
+        }
+      ]
+    },
+    {
+      "entityId": "e_023",
+      "@type": "Person",
+      "name": "Hannah Gore",
+      "description": "Hannah Gore (formerly Hannah Browsky) is an Account Director at Sixth City Marketing, working closely with clients and strategists to help them achieve their marketing goals.",
+      "alternateName": "Hannah Browsky",
+      "sameAs": [
+        "https://www.linkedin.com/in/hannahbrowsky/"
+      ],
+      "relations": [
+        {
+          "predicate": "AFFILIATED_WITH",
+          "targetId": "e_001",
+          "targetName": "Sixth City Marketing"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_036",
+          "text": "My new role consists to work closely with our clients and strategists to help them achieve their marketing goals.",
+          "sourceUrl": "https://www.sixthcitymarketing.com/hannah-browsky/",
+          "pageTitle": "Hannah Gore | Account Director",
+          "publisher": "Sixth City Marketing",
+          "retrieved": "2026-06-08T00:00:00Z",
+          "contentType": "evidence",
+          "audienceType": "general"
         }
       ]
     }
